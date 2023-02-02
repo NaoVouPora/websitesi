@@ -1,0 +1,339 @@
+<?php
+session_start();
+if ($_SESSION['LOGGED_IN']==false){
+
+header("Location: signin.php"); 
+}
+?>
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.104.2">
+  <title>Olx Africa</title>
+
+<body style="background-color:rgb(0, 0, 0);">
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+
+<p style="background-image: url('hdt.png');">
+<
+
+
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <p style="background-image: url('hdt.png');">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <img class="navbar-brand" width="140" height="70" alt="" srcset="MrPiracy-logo.webp"  role="img" link href="MrPiracy-logo.webp"
+            aria-label="Placeholder: 140x70">
+            <link img src="ssndob-doj-seized.webp" rel="stylesheet">
+          </svg>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="admin/index.html">admin</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img width="1350" height="640" src="244641513_982634262285417_5103682264452429474_n.jpg" class="CalloutRightPhoto" />
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>uindous chis pe</h1>
+                <p>Bito Gameplays </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign Up is rafaxis66S</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img width="1350" height="640" src="2.jpg" class="CalloutRightPhoto" />
+            
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>pedro rico.</h1>
+                <p>Este senhor e uma pessoa muito inteligente.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Aprenda com o Pedro</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img width="1350" height="640" src="3.jpg" class="CalloutRightPhoto" />
+            <center>O rafael soaraes é ay</center>
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>O sniper666.</h1>
+                <p>No terceiro ano ele usou oculos durante uma semana e tinha um cão salsisha chamado flesa.</p>
+                <p><a class="btn btn-lg btn-primary" href="#">Sign-in as Sniper666</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!-- Marketing messaging and featurettes
+  ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+
+      <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <center>
+          <h1> mulheres bonita </h1>
+        </center>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="4.jpg" role="img"
+              aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+            <h2 class="fw-normal">السيدة العجوز</h2>
+            <p>é bonita pode confiar</p>
+            <p><a class="btn btn-secondary" href="fbi.html">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+
+
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="5.jpg" role="img"
+              aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+            <h2 class="fw-normal">فيليبي</h2>
+            <p>esta é mais bonita ainda. asserio</p>
+            <p><a class="btn btn-secondary" href="fbi.html">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="6.jpg" role="img"
+              aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text></svg>
+
+            <h2 class="fw-normal">رافا سانتوس</h2>
+            <p>é um bacado feia.</p>
+            <p><a class="btn btn-secondary" href="fbi.html">View details &raquo;</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        <hr>
+        <CENTER><img src="44.png" alt="" srcset=""></CENTER>
+        <center><h1>
+ 
+          أراه هنا، أو هناك:
+          عينهُ الزائغة في نهر
+          النكبات، منخراه المتجذّران
+          في تُربة
+          ا</h1></center>
+          <hr>
+          <CENTER><img src="1200px-SS_Totenkopf_Fahne.png" alt="" srcset="" height="300" width="500"></CENTER>
+          <center><img src="grsegs.png" alt="" srcset="" height="200" width="500"></center>
+
+
+
+          
+        <!-- START THE FEATURETTES -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">Pedro Costa. <span class="text-muted">"Logistica"</span></h2>
+            <p class="lead">ele saiu da escola no 11º ano quase a acabar tipo um mes e meio antes de acabar.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="2.jpg" alt="" srcset="" width="500" height="500">
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">RICARDO </span>
+            <p class="lead">ELE QUANDO ERA PEQUENINO</p>
+          </div>
+          <div class="col-md-5">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  src="1.jpg" width="500"
+              height="500" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">O FAVORITO DO BITÓÓ </span>
+            <p class="lead">O BITO ADORA ESTE GAJO</p>
+          </div>
+          <div class="col-md-5">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+              height="500" src="7.jpg" role="img" aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+          </div>
+        </div>
+          <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">O FAVORITO DO ALEMEIDAAAAAAAAAAAA </span>
+                <p class="lead">O ALEMEIDAAAAAAAAAAAA ADORA ESTE GAJO</p>
+              </div>
+              <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                  height="500" src="8.jpg" role="img" aria-label="Placeholder: 500x500"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">O album QUE O BITO ODEIA MAIS </span>
+                <p class="lead">LIXOOOOOOO</p>
+              </div>
+              <div class="col-md-5">
+                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                  height="500" src="ab67616d0000b27337906edcfbfde42b203097f2.jfif" role="img" aria-label="Placeholder: 500x500"
+                  preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+          </div>
+        </div>
+
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+      </div><!-- /.container -->
+
+      <center><img src="faa.png" height="500" width="500" alt="" srcset=""></center>
+      <center><h1>mensagem inspiradora</h1></center>
+      <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p class="signin.php"><a href="signin.php">siginin</a></p>
+        <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+    </main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  </body>
+
+</html>
